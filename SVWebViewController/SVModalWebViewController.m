@@ -59,7 +59,6 @@
     [super viewWillAppear:NO];
     
     self.webViewController.title = self.title;
-    self.navigationBar.tintColor = self.barsTintColor;
 }
 
 #pragma mark - Delegate
